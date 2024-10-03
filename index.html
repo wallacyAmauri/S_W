@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários Sim/Não</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form1" class="form">
+            <h2>Pergunta N°1</h2>
+            <p>Você acha que eu sou uma boa companhia?</p>
+            <button type="button" onclick="handleAnswer(1, true)">Sim</button>
+            <button type="button" onclick="handleAnswer(1, false)">Não</button>
+        </form>
+        
+        <form id="form2" class="form" style="display:none;">
+            <h2>Pergunta N°2</h2>
+            <p>Você gosta de filme Cristão?</p>
+            <button type="button" onclick="handleAnswer(2, true)">Sim</button>
+            <button type="button" onclick="handleAnswer(2, false)">Não</button>
+        </form>
+
+        <form id="form3" class="form" style="display:none;">
+            <h2>Pergunta N°3</h2>
+            <p>você gosta de cinema?</p>
+            <button type="button" onclick="handleAnswer(3, true)">Sim</button>
+            <button type="button" onclick="handleAnswer(3, false)">Não</button>
+        </form>
+
+        <form id="form4" class="form" style="display:none;">
+            <h2>Pergunta N°4</h2>
+            <p>você disse sim a todas as perguntas até agora</p>
+            <p>você quer saber qual e a surpresa por tras disso?</p>
+            <button type="button" onclick="handleAnswer(4, true)">Sim</button>
+            <button type="button" onclick="handleAnswer(4, false)">Não</button>
+        </form>
+
+        <div id="message" class="message"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
