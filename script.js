@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(() => {
         const modal = document.getElementById("modal");
         modal.style.display = "block";
-    }, 1000);
+    }, 500);
 
     // Fechar o modal quando o usuário clicar no botão "fechar"
     document.getElementById("close").onclick = function() {
