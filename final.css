@@ -270,5 +270,15 @@ body{
 @media (max-width:765px) {
     .banner{
         flex-direction: column;
+        padding: 0 20px;
+    }
+    .banner .content h4 {
+        font-size: 20px;
+    }
+    .banner .content p {
+        font-size: .9rem;
+    }
+    .banner .content .button {
+        margin-bottom: 3rem;
     }
 }
