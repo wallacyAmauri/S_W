@@ -267,3 +267,8 @@ body{
     cursor: pointer;
     transition: 0.3s;
 }
+@media (max-width:765px) {
+    .banner{
+        flex-direction: column;
+    }
+}
